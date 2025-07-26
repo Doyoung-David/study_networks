@@ -111,9 +111,9 @@ second_fre=$(echo $top3 | cut -d" " -f1 | head -n 2 | tail -n 1)
 third_fre=$(echo $top3 | cut -d" " -f1 | tail -n 1)
 
 #IP
-first=$(echo $top3 | head -n 1 | cut -d" " -f2)
-second=$(echo $top3 | head -n 2 | tail -n 1 | cut -d" " -f2)
-third=$(echo $top3 | tail -n 1 | cut -d" " -f2)
+first=$(echo $top3 | cut -d" " -f2)
+second=$(echo $top3 |  cut -d" " -f4)
+third=$(echo $top3 |  cut -d" " -f6)
 
 #first connection
 first_time=$(grep "$first" ./network.log | head -n 1 | cut -d" " -f2)
