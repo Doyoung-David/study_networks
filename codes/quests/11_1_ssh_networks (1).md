@@ -127,10 +127,10 @@ echo "$third $third_fre $third_time"
 ```
 ```bash
 #출력 결과
-[reyne@192.168.0.52 ~/Downloads/doyoung]$ . network2.sh 
+[doyoung@localhost practice]$ . network.sh
 192.168.1.100 2 10:30:25
-192.168.1.100 2 10:30:25
-192.168.1.100 2 10:30:25
+192.168.1.101 2 10:30:30
+192.168.1.102 2 10:31:15
 ```
 ---
 
